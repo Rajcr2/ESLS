@@ -9,9 +9,7 @@ This was my academic project focused on creating a efficient LED based Street Li
 I have observed many times that street lights were ON till 10 AM because operator forgot shut the main switch down and seen this very frequently & also lights were ON
 1/2 hrs before SUNSET which leads to Power Wastage this is the Main reason or motivation behind this project.
 
-<img width="435" height="500" alt="image" src="Images/Others/Motivation 1.png" />
-
-<img width="416" height="500" alt="image" src="Images/Others/Motivation 2.png" />
+<img width="435" height="500" alt="image" src="Images/Others/Motivation 1.png" /> <img width="416" height="500" alt="image" src="Images/Others/Motivation 2.png" />
 
 ### Objectives
 
@@ -39,7 +37,7 @@ I have observed many times that street lights were ON till 10 AM because operato
 
 > The schematic is designed in KiCad. Schematic consists Arduino Nano (Control Unit), DS1307 RTC Module, optocoupler driver (MOC3021), BT136 TRIAC (switching circuit) for AC load along with Resistors.
 
-<img width="772" height="537" alt="ESLS Schematic" src="Images/Others/ESLS Schematic.png.png" />
+<img width="772" height="537" alt="ESLS Schematic" src="Images/Others/ESLS Schematic.png" />
 
 ### PCB Layout
 
