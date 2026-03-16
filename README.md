@@ -9,9 +9,9 @@ This was my academic project focused on creating a efficient LED based Street Li
 I have observed many times that street lights were ON till 10 AM because operator forgot shut the main switch down and seen this very frequently & also lights were ON
 1/2 hrs before SUNSET which leads to Power Wastage this is the Main reason or motivation behind this project.
 
-<img width="435" height="500" alt="image" src="https://github.com/user-attachments/assets/d489e0f3-61fe-4440-8df4-99a337f3a646" />
+<img width="435" height="500" alt="image" src="Images/Others/Motivation 1.png" />
 
-<img width="416" height="500" alt="image" src="https://github.com/user-attachments/assets/ec2d09ff-26fb-4e74-ac36-af446ed9974f" />
+<img width="416" height="500" alt="image" src="Images/Others/Motivation 2.png" />
 
 ### Objectives
 
@@ -22,7 +22,7 @@ I have observed many times that street lights were ON till 10 AM because operato
 
 ## System Design
 
-<img width="1000" height="440" alt="System Design Clear" src="https://github.com/user-attachments/assets/941a9abb-3ea9-4d03-aae2-c2ec2af72949" />
+<img width="1000" height="440" alt="System Design Clear" src="Images/Others/System Design Clear.png" />
 
 ### Components
 
@@ -39,17 +39,17 @@ I have observed many times that street lights were ON till 10 AM because operato
 
 > The schematic is designed in KiCad. Schematic consists Arduino Nano (Control Unit), DS1307 RTC Module, optocoupler driver (MOC3021), BT136 TRIAC (switching circuit) for AC load along with Resistors.
 
-<img width="772" height="537" alt="ESLS Schematic" src="https://github.com/user-attachments/assets/ae9b7ab8-5d21-4cb0-9e39-61694916ff11" />
+<img width="772" height="537" alt="ESLS Schematic" src="Images/Others/ESLS Schematic.png.png" />
 
 ### PCB Layout
 
 > The PCB layout separates the low-voltage control circuitry from the AC power section to maintain electrical isolation. Routing was optimized to keep the power path short and reduce noise coupling.
 
-<img width="772" height="537" alt="PCB Layout - ESLS" src="https://github.com/user-attachments/assets/e62d4f79-31fe-4568-9e5e-4250a4d0174d" />
+<img width="772" height="537" alt="PCB Layout - ESLS" src="Images/Others/PCB Layout - ESLS.png" />
 
 ### 3D View
 
-<img width="1677" height="923" alt="ESLS_3D" src="https://github.com/user-attachments/assets/a62f0f5a-c241-47c2-bdda-845b28a7d4cc" />
+<img width="1677" height="923" alt="ESLS_3D" src="Images/Others/ESLS_3D.png" />
 
 ### Design considerations
 
@@ -77,8 +77,8 @@ Example : **PULSE(0 5 0 1u 1u 1m 2m)**
 | ------------ | ----- |
 | Low Voltage  | 0 V   |
 | High Voltage | 5 V   |
-| Rise Time    | 10 µs |
-| Fall Time    | 10 µs |
+| Rise Time    | 1 µs |
+| Fall Time    | 1 µs |
 | ON Time      | 1 ms  |
 | Period       | 2 ms  |
 
