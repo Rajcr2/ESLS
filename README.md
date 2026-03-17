@@ -155,16 +155,24 @@ The observed outputs confirm that the system correctly generates the control sig
 
 
 - #### 1. During Day Time
+  Mechanism is developed in way that during hours from **8 AM to 6 PM** Light will remain OFF. In case, operator forgot to switch off main switch still lights will be OFF.
 <img width="1677" height="923" alt="Day Hours" src="Images/Others/Day Hours.png" />
 
 - #### 2. At Evening
+  In the evening, during the time of **Sunset** there is enough light present so, we don't need street lights with Full intensity, so we have make   sure that lights will be ON with bit less intensity like at **6-7 PM = 40%** & **7-8 PM = 50%**. Same logic is used during **Sunrise** time as well. 
 <img width="1677" height="923" alt="Evening Hours" src="Images/Others/Evening Hours.png" />
 
 - #### 3. At Peak Night Hours
+  Only During complete DARK hours mainly from **8 PM to 5 AM** Lights will be ON with Full intensity.
 <img width="1677" height="923" alt="Night Hours" src="Images/Others/Night Hours.png" />
 
 - #### 4. During Cloudy Conditions
+  This is a special case designed for Rainy Season, where if clouds appear in Day hours incase if LDR senses surrounding is DARK it will Turn ON lights Automatically without any need Manual workers risking their life in Rainy times.
 <img width="1677" height="923" alt="Cloudy" src="Images/Others/Cloudy Day.png" />
 
+## Conclusion
+Developed a system that will use **RTC (Real Time Clock) and surrounding ambience with LDR Sensor** intelligently and will make sure Light will be **ON only during DARK Hours** in case of **DAY Hours it will be ON but, with less intensity**. Which will,
+- **Improve life of Street Lights.**
+- **Contribute to lot of Energy Savings.**
 
 
