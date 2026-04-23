@@ -118,16 +118,19 @@ Simulation demonstrates and displays output Oscilloscope how the Arduino program
 
 ### Simulation Outputs
 
-- #### At Mid-Day Time
+- #### At Mid-Day Time :
+  As per our goal light must remain off during Day Time and thats we have achieved. It will only **"Turn ON"** if LDR triggers due to cloudy condition.
 <img width="1677" height="923" alt="Proteus_Day_Hours" src="Images/Simulation/Proteus - Day hours.png" />
 
-- #### At Evening Time
+- #### At Evening Time :
+  As during sunset time, we need light but, not fully in regular seasons so, 50% light is enough and that we got it. For special case, during cloudy conditions if it senses Darkness around will trigger LDR. so, Both scenarios are covered.
 <img width="1677" height="923" alt="Proteus_Day_Hours" src="Images/Simulation/Proteus - Evening hours.png" />
 
-- #### At Night
+- #### At Night :
+  Light is fully ON.
 <img width="1677" height="923" alt="Proteus_Day_Hours" src="Images/Simulation/Proteus - Night hours.png" />
 
-- #### At Early Morning
+- #### At Early Morning :
 <img width="1677" height="923" alt="Proteus_Day_Hours" src="Images/Simulation/Proteus - Early Morning.png" />
 
 - #### At Morning
